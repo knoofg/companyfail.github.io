@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Fail - Corporate Humor (for the Masochists)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">  </head>
+<body>
+
+    <header class="header-desastre">  <h1 class="titulo-principal-desastre glitch-text">COMPANY FAIL</h1>  <p class="eslogan-desastre">Corporate Humor (for the Masochists)</p> <button id="boton-espanol-desastre" class="boton-desastre boton-gigante-caotico">¿Hablas español? CLIC AQUÍ PARA EL DESASTRE</button> </header>
+
+    <main class="main-content-desastre"> <section id="seccion-contenido-viral" class="seccion-desastre"> <h2 class="titulo-seccion-desastre">DESASTRE CORPORATIVO <span class="texto-cutre-bien-hecho">(RECIÉN 'SALIDO DEL HORNO' ¡Y 'CUTRE BIEN HECHO'!)</span></h2> <div class="contenido-viral-container"> <article class="post-blog-desastre">
+                    <h3 class="titulo-post-blog-desastre">Post Blog 1: Título del Post (CUTRE BIEN HECHO)</h3>
+                    <p class="extracto-post-blog-desastre">Extracto del post (CUTRE BIEN HECHO)...</p>
+                    <button class="boton-desastre boton-inutil boton-kpis-hiper-efectivos">OPTIMIZAR SINERGIAS AHORA</button> </article>
+                <article class="post-blog-desastre">
+                    <h3 class="titulo-post-blog-desastre">Post Blog 2: Título del Post (CUTRE BIEN HECHO)</h3>
+                    <p class="extracto-post-blog-desastre">Extracto del post (CUTRE BIEN HECHO)...</p>
+                    <button class="boton-desastre boton-inutil boton-growth-exponencial">GROWTH EXPONENCIAL SÍ O SÍ</button> </article>
+                <article class="post-blog-desastre">
+                    <h3 class="titulo-post-blog-desastre">Post Blog 3: Título del Post (CUTRE BIEN HECHO)</h3>
+                    <p class="extracto-post-blog-desastre">Extracto del post (CUTRE BIEN HECHO)...</p>
+                    <button class="boton-desastre boton-inutil boton-reunion-sinergia">REUNIÓN DE SINERGIA ESTRATÉGICA</button> </article>
+                <article class="post-blog-desastre">
+                    <h3 class="titulo-post-blog-desastre">Post Blog 4: Título del Post (CUTRE BIEN HECHO)</h3>
+                    <p class="extracto-post-blog-desastre">Extracto del post (CUTRE BIEN HECHO)...</p>
+                    <button class="boton-desastre boton-inutil boton-holistic-approach">HOLISTIC APPROACH INNOVATION</button> </article>
+                <article class="post-blog-desastre">
+                    <h3 class="titulo-post-blog-desastre">Post Blog 5: Título del Post (CUTRE BIEN HECHO)</h3>
+                    <p class="extracto-post-blog-desastre">Extracto del post (CUTRE BIEN HECHO)...</p>
+                    <button class="boton-desastre boton-inutil boton-resultados-win-win">RESULTADOS WIN-WIN DEFINITIVAMENTE</button> </article>
+            </div>
+        </section>
+
+        <section id="seccion-blog-desastre-diario" class="seccion-desastre"> <h2 class="titulo-seccion-desastre">BLOG DESASTRE <span class="texto-cutre-bien-hecho">(DESASTRE EN VIVO)</span></h2> <ul class="lista-blog-desastre"> <li><a href="#" class="enlace-blog-desastre">Título Post Blog Desastre 1 (CUTRE BIEN HECHO)</a></li>
+                <li><a href="#" class="enlace-blog-desastre">Título Post Blog Desastre 2 (CUTRE BIEN HECHO)</a></li>
+                <li><a href="#" class="enlace-blog-desastre">Título Post Blog Desastre 3 (CUTRE BIEN HECHO)</a></li>
+                <li><a href="#" class="enlace-blog-desastre">Título Post Blog Desastre 4 (CUTRE BIEN HECHO)</a></li>
+                <li><a href="#" class="enlace-blog-desastre">Título Post Blog Desastre 5 (CUTRE BIEN HECHO)</a></li>
+                 </ul>
+        </section>
+
+        <section id="seccion-podcast-zoom" class="seccion-desastre"> <h2 class="titulo-seccion-desastre">PODCAST ZOOMBIELAND CORPORATIVO <span class="texto-cutre-bien-hecho">(GUÍA DE SUPERVIVENCIA Y ESCAPE)</span></h2> <div class="podcast-container">  <p class="texto-podcast-desastre">ENLACE <a href="#">A PLATAFORMA DE PODCASTS EXTERNA (¡POR SI ESTO FALLA!)</a> (¡CUTRE BIEN HECHO, LO SABEMOS!)</p> </div>
+        </section>
+
+        <section id="seccion-gurus-corporativos" class="seccion-desastre"> <h2 class="titulo-seccion-desastre">7 GURÚS CORPORATIVOS <span class="texto-cutre-bien-hecho">(QUE TE VENDERÁN 'HUMO CORPORATIVO' A PRECIO DE ORO)</span></h2> <div class="gurus-container"> <div class="guru-desastre"> <img src="guru1.png" alt="Guru 1" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Pedro de RRHH</h3> <p class="frase-guru-desastre">"Los KPIs son la clave (o no)"</p> </div>
+                <div class="guru-desastre"> <img src="guru2.png" alt="Guru 2" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Sofia de Marketing</h3> <p class="frase-guru-desastre">"Sinergia estratégica (hasta el infinito)"</p> </div>
+                <div class="guru-desastre"> <img src="guru3.png" alt="Guru 3" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Carlos de Ventas</h3> <p class="frase-guru-desastre">"Crecimiento exponencial (¡sí o sí!)"</p> </div>
+                <div class="guru-desastre"> <img src="guru4.png" alt="Guru 4" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Laura de Finanzas</h3> <p class="frase-guru-desastre">"Optimización de recursos (¡humanos incluidos!)"</p> </div>
+                <div class="guru-desastre"> <img src="guru5.png" alt="Guru 5" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Javier de IT</h3> <p class="frase-guru-desastre">"Transformación digital (¡aunque nadie entienda nada!)"</p> </div>
+                <div class="guru-desastre"> <img src="guru6.png" alt="Guru 6" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Isabel de Comunicación</h3> <p class="frase-guru-desastre">"Branding holístico (¡y 'vacío'!)"</p> </div>
+                <div class="guru-desastre"> <img src="guru7.png" alt="Guru 7" class="avatar-guru-desastre glitch-image"> <h3 class="nombre-guru-desastre">Miguel de Dirección</h3> <p class="frase-guru-desastre">"Resultados win-win (¡definitivamente!)"</p> </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-desastre"> <p class="texto-footer-desastre">EMPRESA DESASTRE / COMPANY FAIL: DONDE EL CAOS CORPORATIVO SE ENCUENTRA CON EL HUMOR NEGRO (Y LA 'VAGUEZA HIPEREFECTIVA') <span class="texto-cutre-bien-hecho">(¡COPYRIGHT 'CUTRE BIEN HECHO' 2024 - ¡O NO!)</span></p>  <button class="boton-desastre boton-inutil boton-descargar-informe-error404">DESCARGAR 'INFORME DE PRODUCTIVIDAD' (ERROR 404)</button>  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
