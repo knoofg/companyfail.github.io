@@ -1,0 +1,483 @@
+/* Estilo CSS "Grotesque Ugly-Cute" y "Glitch Rebelde Teatral" - ¡CUTRE BIEN HECHO! */
+
+/* Paleta de Colores "Anti-Corporativa" Distorsionada y Rebelde */
+:root {
+    --color-primario: #ff6b6b; /* Rojo Rebelde - Ligeramente Oscuro */
+    --color-secundario: #2d3436; /* Gris Apocalíptico - Luminoso */
+    --color-acento: #ffd700; /* Amarillo Cutre Pastel */
+    --color-fondo: #f0f0f0; /* Fondo Grisáceo Deslavado */
+    --color-texto-principal: #2d3436; /* Texto Principal - Gris Apocalíptico */
+    --color-texto-secundario: #777; /* Texto Secundario - Gris Más Deslavado */
+    --color-enlace: #ff6b6b; /* Enlaces - Rojo Rebelde */
+    --color-enlace-hover: #ff8a8a; /* Enlaces Hover - Rojo Rebelde Más Luminoso */
+    --color-boton-principal: #ffd700; /* Botón Principal - Amarillo Cutre Pastel */
+    --color-boton-principal-texto: #2d3436; /* Texto Botón Principal - Gris Apocalíptico */
+    --color-boton-secundario: #2d3436; /* Botón Secundario - Gris Apocalíptico */
+    --color-boton-secundario-texto: #f0f0f0; /* Texto Botón Secundario - Fondo Grisáceo */
+    --tipografia-titulos: 'Bangers', cursive; /* Tipografía para Títulos - Bangers */
+    --tipografia-principal: 'Comic Neue', cursive; /* Tipografía Principal - Comic Neue */
+}
+
+body {
+    font-family: var(--tipografia-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto-principal);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* Espaciado en blanco desigual y vago - ¡Desorden Visual Controlado! */
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Estilos Generales "Cutres Bien Hechos" */
+.seccion-desastre {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff; /* Fondo Blanco Roto - Ligeramente Sucio */
+    border: 1px solid #ccc; /* Borde Grisáceo Imperfecto */
+    border-radius: 5px; /* Bordes Ligeramente No Redondeados */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05); /* Sombra Muy Sutil - Casi Imperceptible */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    left: -3px;
+    top: 2px;
+}
+
+.titulo-seccion-desastre {
+    font-family: var(--tipografia-titulos);
+    color: var(--color-primario);
+    font-size: 2.2em; /* Tamaño de Texto Desproporcionado */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; /* Espaciado entre letras vago e impredecible */
+    /* Ligera desalineación vertical - ¡Incomodidad Visual! */
+    position: relative;
+    top: -2px;
+}
+
+.texto-cutre-bien-hecho {
+    font-size: 0.8em; /* Tamaño de Texto Desproporcionado - Más Pequeño */
+    color: var(--color-texto-secundario);
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    left: 2px;
+}
+
+/* Estilos del Header "Desastre Corporativo" */
+.header-desastre {
+    background-color: var(--color-secundario);
+    color: var(--color-fondo);
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    /* Forma distorsionada y asimétrica - ¡Grotesque Ugly-Cute! */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 25px;
+    /* Línea delgada amarilla cutre cruzando diagonalmente - ¡Tachado Corporativo! */
+    position: relative;
+}
+
+.header-desastre::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+    width: 110%;
+    height: 5px;
+    background-color: var(--color-acento); /* Amarillo Cutre */
+    transform: rotate(-3deg); /* Ligera rotación - ¡Desorden Controlado! */
+}
+
+
+.titulo-principal-desastre {
+    font-family: var(--tipografia-titulos);
+    font-size: 3.5em; /* Tamaño de Texto Desproporcionado - Gigante */
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 0 var(--color-primario); /* Sombra de Texto "Desastrosa" */
+    text-transform: uppercase;
+    letter-spacing: 0.2em; /* Espaciado entre letras caótico */
+}
+
+/* Efecto Glitch en el texto - ¡Desastre Visual IA-Powered! */
+.glitch-text {
+    text-shadow: 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario), 0.025em 0.05em 0 var(--color-acento);
+    animation: glitch-anim 0.5s infinite steps(2, end);
+}
+
+@keyframes glitch-anim {
+    0% {
+        text-shadow: 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario), 0.025em 0.05em 0 var(--color-acento);
+    }
+    14% {
+        text-shadow: 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario), 0.025em 0.05em 0 var(--color-acento);
+    }
+    15% {
+        text-shadow: -0.05em -0.025em 0 var(--color-primario), 0.025em 0.05em 0 var(--color-acento), -0.05em -0.05em 0 var(--color-acento);
+    }
+    49% {
+        text-shadow: -0.05em -0.025em 0 var(--color-primario), 0.025em 0.05em 0 var(--color-acento), -0.05em -0.05em 0 var(--color-acento);
+    }
+    50% {
+        text-shadow: 0.025em 0.05em 0 var(--color-acento), 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario);
+    }
+    99% {
+        text-shadow: 0.025em 0.05em 0 var(--color-acento), 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario);
+    }
+    100% {
+        text-shadow: none;
+    }
+}
+
+
+.eslogan-desastre {
+    font-size: 1.4em; /* Tamaño de Texto Desproporcionado - Grande */
+    color: var(--color-acento);
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 var(--color-primario); /* Sombra de Texto "Desastrosa" */
+}
+
+/* Botón "Gigante Caótico" - ¡Botón Español "K.O. Absoluto"! */
+#boton-espanol-desastre {
+    font-size: 1.8em; /* Tamaño de Texto Desproporcionado - Gigante */
+    padding: 15px 30px;
+    border-radius: 10px; /* Bordes Ligeramente No Redondeados */
+    border: 3px solid var(--color-primario); /* Borde Grueso Rebelde */
+    background-color: var(--color-boton-principal);
+    color: var(--color-boton-principal-texto);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.15em; /* Espaciado entre letras caótico */
+    font-weight: bold; /* Texto en Negrita - ¡Fuerza "Corporativa"! */
+    /* Forma distorsionada y asimétrica - ¡Grotesque Ugly-Cute! */
+    transform: perspective(500px) rotateY(-5deg);
+    box-shadow: 5px 5px 0 var(--color-secundario); /* Sombra "Desastrosa" */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+#boton-espanol-desastre:hover {
+    transform: perspective(500px) rotateY(5deg) scale(1.05); /* Hover - Ligera Distorsión y Escala */
+    box-shadow: 7px 7px 0 var(--color-primario); /* Sombra Más "Desastrosa" en Hover */
+}
+
+
+/* Contenido Viral "Cutremente" Dispuesto */
+.contenido-viral-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid "Vaga HiperEfectivamente" Definida */
+    gap: 25px;
+    /* Espacios desiguales y vagos - ¡Desorden Visual Controlado! */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.post-blog-desastre {
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo Gris Muy Claro - Casi Blanco Roto */
+    border: 1px dashed var(--color-secundario); /* Borde Discontinuo "Cutre" */
+    border-radius: 7px; /* Bordes Ligeramente No Redondeados */
+    box-shadow: 3px 3px 0 var(--color-acento); /* Sombra "Desastrosa" - Amarillo Cutre */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    bottom: -2px;
+    right: 1px;
+}
+
+.titulo-post-blog-desastre {
+    font-family: var(--tipografia-titulos);
+    color: var(--color-secundario);
+    font-size: 1.8em; /* Tamaño de Texto Desproporcionado - Grande */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em; /* Espaciado entre letras vago */
+    /* Ligera desalineación vertical - ¡Incomodidad Visual! */
+    position: relative;
+    top: 1px;
+}
+
+.extracto-post-blog-desastre {
+    color: var(--color-texto-secundario);
+    margin-bottom: 15px;
+    /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
+    position: relative;
+    top: 1px;
+}
+
+
+/* Botones "Inútiles" Corporativos - ¡Festival de la Inutilidad! */
+.boton-inutil {
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes Ligeramente No Redondeados */
+    border: 2px solid var(--color-acento); /* Borde "Cutre" Amarillo */
+    background-color: var(--color-boton-secundario);
+    color: var(--color-boton-secundario-texto);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9em; /* Tamaño de Texto Ligeramente Desproporcionado - Pequeño */
+    font-weight: bold; /* Texto en Negrita - ¡Ironía Corporativa! */
+    letter-spacing: 0.05em; /* Espaciado entre letras vago */
+    /* Forma ligeramente distorsionada y asimétrica - ¡Grotesque Ugly-Cute! */
+    transform: rotate(-1deg);
+    box-shadow: 3px 3px 0 var(--color-primario); /* Sombra "Desastrosa" - Rojo Rebelde */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+.boton-inutil:hover {
+    transform: rotate(1deg) scale(1.02); /* Hover - Ligera Distorsión y Escala */
+    box-shadow: 4px 4px 0 var(--color-acento); /* Sombra Más "Desastrosa" en Hover */
+    background-color: var(--color-primario); /* Cambio de Color Inesperado - ¡Caos Controlado! */
+    color: var(--color-fondo); /* Cambio de Color Inesperado - ¡Caos Controlado! */
+}
+
+
+/* Blog Desastre Diario - Lista "Cutremente Conectada" */
+.lista-blog-desastre {
+    padding-left: 25px; /* Padding "Vago" - ¡Desorden Visual! */
+    list-style-type: none; /* Sin viñetas - ¡Minimalismo "Corporativo"! */
+}
+
+.lista-blog-desastre li {
+    margin-bottom: 10px;
+    /* Líneas delgadas amarillas cutres cruzando diagonalmente - ¡Tachado Corporativo! */
+    position: relative;
+    padding-left: 10px; /* Padding "Vago" - ¡Desorden Visual! */
+}
+
+.lista-blog-desastre li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-primario); /* Pequeño icono corporativo simplón y feo */
+    border-radius: 50%; /* Icono "Corporativo" Redondeado - ¡Ironía! */
+}
+
+.lista-blog-desastre li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-acento); /* Línea delgada amarilla cutre */
+    transform: translateY(2px); /* Ligera desalineación vertical - ¡Incomodidad Visual! */
+    z-index: -1; /* Detrás del texto - ¡Discreto pero "Presente"! */
+}
+
+
+.enlace-blog-desastre {
+    color: var(--color-enlace);
+    text-decoration: none; /* Sin subrayado - ¡Minimalismo "Corporativo"! */
+    font-weight: bold; /* Texto en Negrita - ¡Fuerza "Corporativa"! */
+    transition: color 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+.enlace-blog-desastre:hover {
+    color: var(--color-enlace-hover);
+    text-decoration: underline dotted var(--color-acento); /* Subrayado discontinuo "Cutre" en hover */
+}
+
+
+/* Podcast ZoomBieland Corporativo - "Cutrez" Incrustada */
+.podcast-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff; /* Fondo Blanco Roto - Ligeramente Sucio */
+    border: 2px dashed var(--color-primario); /* Borde Discontinuo "Rebelde" */
+    border-radius: 10px; /* Bordes Ligeramente No Redondeados */
+    box-shadow: -3px -3px 0 var(--color-secundario); /* Sombra "Desastrosa" - Gris Apocalíptico */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    left: 2px;
+    top: -1px;
+}
+
+.texto-podcast-desastre {
+    color: var(--color-texto-secundario);
+    font-size: 0.9em; /* Tamaño de Texto Ligeramente Desproporcionado - Pequeño */
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
+    position: relative;
+    top: 1px;
+}
+
+.texto-podcast-desastre a {
+    color: var(--color-enlace);
+    text-decoration: underline dashed var(--color-acento); /* Subrayado discontinuo "Cutre" */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+.texto-podcast-desastre a:hover {
+    color: var(--color-enlace-hover);
+    text-decoration: underline wavy var(--color-primario); /* Subrayado ondulado "Rebelde" en hover */
+}
+
+
+/* Gurús Corporativos - Festival de la Guruficación Desastrosa */
+.gurus-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Grid "Vaga HiperEfectivamente" Definida */
+    gap: 30px;
+    /* Espacios desiguales y vagos - ¡Desorden Visual Controlado! */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    justify-items: center; /* Items Centrados - ¡Ironía Corporativa! */
+}
+
+.guru-desastre {
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9; /* Fondo Gris Muy Claro - Casi Blanco Roto */
+    border: 1px solid var(--color-primario); /* Borde "Rebelde" Rojo */
+    border-radius: 50%; /* Forma Redondeada - ¡Icono "Corporativo" Genérico! */
+    box-shadow: 4px 4px 0 var(--color-secundario); /* Sombra "Desastrosa" - Gris Apocalíptico */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    bottom: -1px;
+    right: -2px;
+}
+
+.avatar-guru-desastre {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Avatar Redondo - ¡Cliché "Corporativo"! */
+    margin-bottom: 10px;
+    border: 3px double var(--color-acento); /* Borde Doble "Cutre" Amarillo */
+    /* Efecto Glitch en las imágenes - ¡Desastre Visual IA-Powered! */
+    animation: glitch-image-anim 1s infinite steps(2, end);
+}
+
+@keyframes glitch-image-anim {
+    0% {
+        clip-path: polygon(0 2%, 100% 2%, 100% 4%, 0 4%);
+    }
+    5% {
+        clip-path: polygon(0 15%, 100% 15%, 100% 20%, 0 20%);
+    }
+    10% {
+        clip-path: polygon(0 10%, 100% 10%, 100% 12%, 0 12%);
+    }
+    15% {
+        clip-path: polygon(0 25%, 100% 25%, 100% 25%, 0 25%);
+    }
+    20% {
+        clip-path: polygon(0 30%, 100% 30%, 100% 30%, 0 30%);
+    }
+    25% {
+        clip-path: polygon(0 35%, 100% 35%, 100% 40%, 0 40%);
+    }
+    30% {
+        clip-path: polygon(0 40%, 100% 40%, 100% 45%, 0 45%);
+    }
+    35% {
+        clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);
+    }
+    40% {
+        clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
+    }
+    45% {
+        clip-path: polygon(0 55%, 100% 55%, 100% 60%, 0 60%);
+    }
+    50% {
+        clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+    }
+    55% {
+        clip-path: polygon(0 65%, 100% 65%, 100% 70%, 0 70%);
+    }
+    60% {
+        clip-path: polygon(0 70%, 100% 70%, 100% 75%, 0 75%);
+    }
+    65% {
+        clip-path: polygon(0 75%, 100% 75%, 100% 80%, 0 80%);
+    }
+    70% {
+        clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+    }
+    75% {
+        clip-path: polygon(0 85%, 100% 85%, 100% 90%, 0 90%);
+    }
+    80% {
+        clip-path: polygon(0 90%, 100% 90%, 100% 95%, 0 95%);
+    }
+    85% {
+        clip-path: polygon(0 95%, 100% 95%, 100% 100%, 0 100%);
+    }
+    90% {
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    }
+    95% {
+        clip-path: polygon(0 5%, 100% 5%, 100% 10%, 0 10%);
+    }
+    100% {
+        clip-path: polygon(0 0%, 100% 0%, 100% 2%, 0 2%);
+    }
+}
+
+
+.nombre-guru-desastre {
+    font-family: var(--tipografia-titulos);
+    color: var(--color-primario);
+    font-size: 1.2em; /* Tamaño de Texto Desproporcionado - Mediano */
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Espaciado entre letras vago */
+    /* Ligera desalineación vertical - ¡Incomodidad Visual! */
+    position: relative;
+    top: 1px;
+}
+
+.frase-guru-desastre {
+    color: var(--color-texto-secundario);
+    font-size: 0.9em; /* Tamaño de Texto Ligeramente Desproporcionado - Pequeño */
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
+    position: relative;
+    top: 1px;
+}
+
+
+/* Footer Desastre Corporativo - "Cutrez" Final */
+.footer-desastre {
+    background-color: var(--color-secundario);
+    color: var(--color-fondo);
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    /* Forma distorsionada y asimétrica - ¡Grotesque Ugly-Cute! */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 15px;
+     /* Línea delgada amarilla cutre cruzando diagonalmente - ¡Tachado Corporativo! */
+    position: relative;
+}
+
+.footer-desastre::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5%;
+    width: 110%;
+    height: 5px;
+    background-color: var(--color-acento); /* Amarillo Cutre */
+    transform: rotate(3deg); /* Ligera rotación - ¡Desorden Controlado! */
+}
+
+
+.texto-footer-desastre {
+    font-size: 0.9em; /* Tamaño de Texto Ligeramente Desproporcionado - Pequeño */
+    color: var(--color-fondo);
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 0 var(--color-primario); /* Sombra de Texto "Desastrosa" */
+    /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
+    position: relative;
+    top: 1px;
+}
