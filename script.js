@@ -1,37 +1,27 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const botonLoco = document.getElementById("botonLoco");
-    const meme = document.getElementById("meme");
-    const memes = ["meme1.jpg", "meme2.jpg", "meme3.jpg"];
-    const botonesSonido = document.querySelectorAll(".boton-sonido");
+// Javascript "Cutre pero Eficaz" para "Re-Encender" Botones Inútiles en Hover - ¡CUTRE BIEN HECHO!
 
-    botonLoco.addEventListener("mouseover", function() {
-        let x = Math.random() * (window.innerWidth - botonLoco.clientWidth);
-        let y = Math.random() * (window.innerHeight - botonLoco.clientHeight);
-        botonLoco.style.position = "absolute";
-        botonLoco.style.left = `${x}px`;
-        botonLoco.style.top = `${y}px`;
-    });
+document.addEventListener('DOMContentLoaded', function() { // Esperar a que el DOM esté cargado - ¡Vagueza HiperEfectiva!
 
-    botonLoco.addEventListener("click", function() {
-        alert("JAJA, ¿pensaste que haría algo útil?");
-        meme.src = memes[Math.floor(Math.random() * memes.length)];
-    });
+    const botonesInutiles = document.querySelectorAll('.boton-inutil'); // Seleccionar todos los botones "inútiles" - ¡Precisión "Corporativa"!
 
-    botonesSonido.forEach(boton => {
-        boton.addEventListener("click", function() {
-            let sonido = new Audio(boton.getAttribute("data-sonido"));
-            sonido.play();
+    botonesInutiles.forEach(boton => { // Iterar sobre cada botón "inútil" - ¡Eficiencia "Desastrosa"!
+
+        boton.addEventListener('mouseover', function() { // Escuchar evento "mouseover" (ratón encima) - ¡Atención "Corporativa" al Usuario!
+            boton.style.filter = 'brightness(1.3)'; // Aumentar ligeramente el brillo - ¡Re-Encendido "Sutil" y "Cutre Bien Hecho"!
+            boton.style.backgroundColor = 'var(--color-acento)'; // Cambiar color de fondo a Amarillo Cutre Pastel (variable CSS) - ¡Toque "de Color" "Rebelde Teatral"!
+            boton.style.color = 'var(--color-boton-principal-texto)'; // Revertir color de texto al original - ¡Equilibrio "Cutre Bien Hecho"!
+            boton.style.transform = 'scale(1.05) rotate(2deg)'; // Ligerísima escala y rotación - ¡"Dinámica" "Cutre Bien Hecha"!
+            boton.style.boxShadow = '5px 5px 0 var(--color-primario)'; // Sombra más "intensa" - ¡Énfasis "Rebelde Teatral"!
         });
+
+        boton.addEventListener('mouseout', function() { // Escuchar evento "mouseout" (ratón fuera) - ¡Vuelta al "Apagado" "Corporativo"!
+            boton.style.filter = 'brightness(1)'; // Restaurar brillo original - ¡Vuelta a la "Normalidad" "Desastrosa"!
+            boton.style.backgroundColor = 'var(--color-boton-secundario)'; // Restaurar color de fondo original - ¡Vuelta al "Gris" "Corporativo"!
+            boton.style.color = 'var(--color-boton-secundario-texto)'; // Restaurar color de texto original - ¡Vuelta a la "Monotonía" "Desastrosa"!
+            boton.style.transform = 'scale(1) rotate(-1deg)'; // Restaurar escala y rotación original - ¡Vuelta a la "Estática" "Corporativa"!
+            boton.style.boxShadow = '3px 3px 0 var(--color-primario)'; // Restaurar sombra original - ¡Vuelta al "Orden" "Desastroso"!
+        });
+
     });
 
-    document.addEventListener("mousemove", function(event) {
-        let x = event.clientX;
-        let y = event.clientY;
-        let span = document.createElement("span");
-        span.classList.add("cursor-efecto");
-        span.style.left = `${x}px`;
-        span.style.top = `${y}px`;
-        document.body.appendChild(span);
-        setTimeout(() => span.remove(), 500);
-    });
 });
