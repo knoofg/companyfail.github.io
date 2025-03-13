@@ -1,4 +1,4 @@
-/* Estilo CSS "Grotesque Ugly-Cute" y "Glitch Rebelde Teatral" - ¡CUTRE BIEN HECHO! */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');/* Estilo CSS "Grotesque Ugly-Cute" y "Glitch Rebelde Teatral" - ¡CUTRE BIEN HECHO! */
 
 /* Paleta de Colores "Anti-Corporativa" Distorsionada y Rebelde */
 :root {
@@ -480,4 +480,85 @@ body {
     /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
     position: relative;
     top: 1px;
+}.k-o-header {
+  background: #2D3436;
+  padding: 2rem;
+  border-bottom: 5px solid #FF6B6B;
+}
+
+.logo-glitch {
+  width: 150px;
+  filter: drop-shadow(0 0 10px #FF6B6B);
+}
+
+.k-o-title {
+  font-family: 'Bangers', cursive;
+  color: #FFD700;
+  font-size: 4rem;
+  transform: rotate(-3deg);
+  text-shadow: 3px 3px #FF6B6B;
+}
+
+.failed-tilt {
+  transform: rotate(5deg);
+  display: inline-block;
+}
+
+.eslogan {
+  font-family: 'Permanent Marker', cursive;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}.meme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background: repeating-linear-gradient(
+    45deg,
+    #2D3436,
+    #2D3436 10px,
+    #FF6B6B 10px,
+    #FF6B6B 20px
+  );
+}
+
+.meme-box {
+  background: white;
+  padding: 1rem;
+  box-shadow: 10px 10px 0 #FFD700;
+}
+
+.meme-box img {
+  width: 100%;
+  border: 3px dashed #2D3436;
+}.cta-button {
+  background: #FF6B6B;
+  color: #2D3436;
+  padding: 1rem 2rem;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: skew(-10deg);
+  display: inline-block;
+  margin: 2rem;
+}
+
+.cta-button:hover {
+  background: #FFD700;
+  transform: skew(10deg) scale(1.1);
+  text-shadow: 2px 2px #FF6B6B;
+}.k-o-footer {
+  background: #2D3436;
+  color: #FF6B6B;
+  padding: 2rem;
+  text-align: center;
+  border-top: 3px dashed #FFD700;
+}
+
+.footer-icon {
+  width: 50px;
+  opacity: 0.5;
+  margin-top: 1rem;
 }
