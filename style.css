@@ -322,4 +322,40 @@ body {
 /* Gurús Corporativos - Festival de la Guruficación Desastrosa */
 .gurus-container {
     display: grid;
-    grid-template-columns:
+    grid-template-columns:.k-o-header {
+    background: #2D3436;
+    padding: 2rem;
+    border-bottom: 5px solid #FF6B6B;
+    display: flex; /* ¡ESTA ES LA LÍNEA MÁGICA QUE FALTA! */
+    align-items: center;
+    /* justify-content: center; ¡LO COMENTAMOS PARA QUE SE ALINEE A LA IZQUIERDA! */
+}
+
+.logo-glitch {
+    width: 150px;
+    filter: drop-shadow(0 0 10px #FF6B6B);
+    margin-right: 20px;
+}
+
+.k-o-title {
+    font-family: 'Bangers', cursive;
+    color: #FFD700;
+    font-size: 4rem;
+    transform: rotate(-3deg);
+    text-shadow: 3px 3px #FF6B6B;
+    margin-bottom: 0;
+}
+
+.failed-tilt {
+    transform: rotate(5deg);
+    display: inline-block;
+}
+
+.eslogan {
+    font-family: 'Permanent Marker', cursive;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    /* width: 100%; ¡QUITAMOS ESTO PORQUE QUEREMOS QUE SE QUEDE ABAJO! */
+    text-align: center;
+}
