@@ -484,11 +484,14 @@ body {
   background: #2D3436;
   padding: 2rem;
   border-bottom: 5px solid #FF6B6B;
+  display: flex;
+  align-items: center;
 }
 
 .logo-glitch {
   width: 150px;
   filter: drop-shadow(0 0 10px #FF6B6B);
+  margin-right: 20px;
 }
 
 .k-o-title {
