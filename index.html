@@ -3,75 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPANY FAIL - Corporate Absurdity at Its Finest</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap">
+    <title>Company Fail</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/boca-abierta.ico" type="image/x-icon">
 </head>
 <body>
-    <header class="header-glitch">
-        <img src="assets/logo-boca-abierta.png" alt="BOCA ABIERTA" class="logo-glitch">
-        <h1 class="title-glitch">COMPANY <span class="failed-glitch">FAIL</span></h1>
-        <p class="eslogan-glitch">Turning corporate despair into memes since 2024</p>
-        <div class="glitch-box"></div>
+
+    <header>
+        <h1 class="glitch" data-text="EMPRESA DESASTRE">EMPRESA DESASTRE</h1>
+        <p class="subtitulo">Donde todo sale mal, siempre.</p>
     </header>
 
-    <section class="meme-apocalypse">
-        <div class="meme-container">
-            <div class="meme-item rotate-2">
-                <img src="assets/memes/ceo-zombie.gif" alt="Zombie CEO">
-                <p>"When the 'synergy' meeting could've been an email"</p>
-            </div>
-            <div class="meme-item rotate-3">
-                <img src="assets/memes/office-fire.jpg" alt="Burning Office">
-                <p>Monday mornings be like:</p>
-            </div>
-            <div class="meme-item rotate-5">
-                <img src="assets/memes/zoom-hell.png" alt="Zoom Hell">
-                <p>"You're on mute... forever"</p>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section class="hero">
+            <h2>Bienvenido al epicentro del caos corporativo</h2>
+            <button id="botonLoco">¡No me presiones!</button>
+        </section>
 
-    <section class="rebel-section">
-        <button class="cta-rebel" onclick="triggerChaos()">
-            ¡ÚNETE AL COLAPSO! 
-            <span class="fire-emoji">🔥</span>
-        </button>
-        
-        <div class="corporate-easter-egg">
-            <p class="hidden-message">Alt + F4 to escape capitalism</p>
-        </div>
-    </section>
-
-    <section class="corporate-hell">
-        <div class="hell-grid">
-            <div class="hell-item">
-                <h2>BLOG DEL DESASTRE</h2>
-                <ul class="disaster-list">
-                    <li>📉 Cómo fingir productividad</li>
-                    <li>💼 Diccionario corporativo inútil</li>
-                    <li>🔥 Guía para incendiar reuniones</li>
-                </ul>
+        <section class="contenido">
+            <p class="texto-dinamico">Aquí todo se rompe… hasta la paciencia.</p>
+            <div class="meme-container">
+                <img id="meme" src="meme1.jpg" alt="Meme corporativo">
             </div>
-            
-            <div class="hell-item">
-                <h2>PODCAST CAÓTICO</h2>
-                <div class="audio-glitch">
-                    <p>Episodio 1: "CEO vs. Realidad"</p>
-                    <audio controls>
-                        <source src="assets/sounds/printer-error.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="disaster-footer">
-        <p>© 2024 CORPORATE FAILURE ENGINEERS</p>
-        <p>Aviso legal: Si odias tu trabajo, hicimos nuestro trabajo</p>
-        <img src="assets/boca-abierta-small.png" alt="Mini boca" class="mini-glitch">
-    </footer>
+        <section class="interactivo">
+            <div class="glitch-box">⚠️ ERROR 404: Motivación no encontrada</div>
+            <div class="marquee">
+                <p>🚨 ¡Crisis! ¡Reunión urgente que pudo ser un email! 🚨</p>
+            </div>
+        </section>
+
+        <section class="sonidos">
+            <h3>Presiona un botón... si te atreves</h3>
+            <button class="boton-sonido" data-sonido="error.mp3">💥 Error</button>
+            <button class="boton-sonido" data-sonido="alarma.mp3">🚨 Alarma</button>
+            <button class="boton-sonido" data-sonido="grito.mp3">😱 Grito</button>
+        </section>
+
+    </main>
 
     <script src="script.js"></script>
 </body>
