@@ -1,129 +1,114 @@
-/* PALETA DEL APOCALIPSIS CORPORATIVO */
-:root {
-    --blood-red: #ff3b3b;
-    --toxic-yellow: #ffe600;
-    --office-gray: #2a2a2a;
-    --printer-pink: #ff69b4;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* EFECTO GLOBAL DE CAOS CONTROLADO */
 body {
-    background: repeating-linear-gradient(
-        45deg,
-        var(--office-gray),
-        var(--office-gray) 10px,
-        var(--blood-red) 10px,
-        var(--blood-red) 20px
-    );
-    font-family: 'Bangers', cursive;
-    color: white;
-    overflow-x: hidden;
-}
-
-/* HEADER GLITCHER */
-.header-glitch {
-    position: relative;
-    padding: 4rem 2rem;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: lime;
     text-align: center;
-    background: url('assets/glitch-bg.jpg');
-    background-size: cover;
-    border-bottom: 5px solid var(--toxic-yellow);
-    margin-bottom: 3rem;
+    overflow: hidden;
+    animation: fondoParpadeante 3s infinite alternate;
 }
 
-.logo-glitch {
-    width: 200px;
-    filter: drop-shadow(0 0 15px var(--blood-red));
-    animation: glitch 2s infinite;
+@keyframes fondoParpadeante {
+    0% { background-color: black; }
+    50% { background-color: darkred; }
+    100% { background-color: black; }
+}
+
+.glitch {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    animation: glitch 0.7s infinite;
 }
 
 @keyframes glitch {
-    0% { transform: translate(0); }
-    20% { transform: translate(-5px, 5px); }
-    40% { transform: translate(5px, -5px); }
-    60% { transform: translate(-5px, 5px) scale(1.1); }
-    100% { transform: translate(0); }
+    0% { text-shadow: 2px 2px red; }
+    25% { text-shadow: -2px -2px blue; }
+    50% { text-shadow: 2px -2px green; }
+    75% { text-shadow: -2px 2px yellow; }
+    100% { text-shadow: 2px 2px red; }
 }
 
-/* MEME APOCALIPSIS */
-.meme-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
+.subtitulo {
+    font-size: 1.2rem;
+    color: red;
+    animation: shake 0.5s infinite alternate;
 }
 
-.meme-item {
-    background: white;
-    padding: 1rem;
-    box-shadow: 10px 10px 0 var(--toxic-yellow);
-    transition: transform 0.3s;
+@keyframes shake {
+    0% { transform: rotate(-1deg); }
+    100% { transform: rotate(1deg); }
 }
 
-.meme-item:hover {
-    transform: rotate(5deg) scale(1.05);
-    z-index: 100;
-}
-
-.rotate-2 { transform: rotate(-2deg); }
-.rotate-3 { transform: rotate(3deg); }
-.rotate-5 { transform: rotate(-5deg); }
-
-/* BOTÓN REBELDE */
-.cta-rebel {
-    background: var(--blood-red);
-    color: black;
-    padding: 1.5rem 3rem;
-    font-size: 2rem;
-    border: 3px solid black;
-    border-radius: 0;
-    margin: 3rem auto;
-    display: block;
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
     cursor: pointer;
-    transition: all 0.3s;
-    text-shadow: 2px 2px var(--toxic-yellow);
-}
-
-.cta-rebel:hover {
-    background: var(--toxic-yellow);
-    transform: skew(-15deg) scale(1.2);
-    box-shadow: 0 0 30px var(--printer-pink);
-}
-
-/* EASTER EGG CORPORATIVO */
-.hidden-message {
-    opacity: 0;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: black;
-    padding: 1rem;
-    border: 2px dashed var(--toxic-yellow);
-    transition: opacity 0.5s;
-}
-
-.corporate-easter-egg:hover .hidden-message {
-    opacity: 1;
-}
-
-/* FOOTER DESASTROSO */
-.disaster-footer {
-    background: var(--office-gray);
-    padding: 3rem;
-    text-align: center;
-    margin-top: 5rem;
-    border-top: 3px solid var(--blood-red);
     position: relative;
+    transition: all 0.2s ease-in-out;
 }
 
-.mini-glitch {
-    width: 50px;
-    margin-top: 1rem;
-    animation: mini-glitch 1s infinite;
+button:hover {
+    transform: scale(1.2);
 }
 
-@keyframes mini-glitch {
-    0% { transform: translate(0); }
-    50% { transform: translate(3px, -3px); }
-    100% { transform: translate(0); }
+button:active {
+    background-color: black;
+    color: red;
+}
+
+.texto-dinamico {
+    font-size: 1.5rem;
+    animation: parpadeo 1s infinite alternate;
+}
+
+@keyframes parpadeo {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.meme-container img {
+    max-width: 80%;
+    border: 5px solid white;
+    transform: rotate(-5deg);
+    animation: saltitos 2s infinite alternate;
+}
+
+@keyframes saltitos {
+    from { transform: rotate(-5deg); }
+    to { transform: rotate(5deg); }
+}
+
+.glitch-box {
+    font-size: 1.5rem;
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    animation: glitch 1s infinite;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.marquee p {
+    display: inline-block;
+    animation: marqueeScroll 10s linear infinite;
+}
+
+@keyframes marqueeScroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
 }
