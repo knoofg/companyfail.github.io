@@ -123,4 +123,147 @@ body {
         text-shadow: 0.025em 0.05em 0 var(--color-acento), 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario);
     }
     99% {
-        text-shadow: 0.025em 0.05em 0 var(--color-acento), 0.05em 0 0 var(--color-acento), -0
+        text-shadow: 0.025em 0.05em 0 var(--color-acento), 0.05em 0 0 var(--color-acento), -0.025em -0.05em 0 var(--color-primario);
+    }
+    100% {
+        text-shadow: none;
+    }
+}
+
+
+.eslogan-desastre {
+    font-size: 1.4em; /* Tamaño de Texto Desproporcionado - Grande */
+    color: var(--color-acento);
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 var(--color-primario); /* Sombra de Texto "Desastrosa" */
+}
+
+/* Botón "Gigante Caótico" - ¡Botón Español "K.O. Absoluto"! */
+#boton-espanol-desastre {
+    font-size: 1.8em; /* Tamaño de Texto Desproporcionado - Gigante */
+    padding: 15px 30px;
+    border-radius: 10px; /* Bordes Ligeramente No Redondeados */
+    border: 3px solid var(--color-primario); /* Borde Grueso Rebelde */
+    background-color: var(--color-boton-principal);
+    color: var(--color-boton-principal-texto);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.15em; /* Espaciado entre letras caótico */
+    font-weight: bold; /* Texto en Negrita - ¡Fuerza "Corporativa"! */
+    /* Forma distorsionada y asimétrica - ¡Grotesque Ugly-Cute! */
+    transform: perspective(500px) rotateY(-5deg);
+    box-shadow: 5px 5px 0 var(--color-secundario); /* Sombra "Desastrosa" */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+#boton-espanol-desastre:hover {
+    transform: perspective(500px) rotateY(5deg) scale(1.05); /* Hover - Ligera Distorsión y Escala */
+    box-shadow: 7px 7px 0 var(--color-primario); /* Sombra Más "Desastrosa" en Hover */
+}
+
+
+/* Contenido Viral "Cutremente" Dispuesto */
+.contenido-viral-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid "Vaga HiperEfectivamente" Definida */
+    gap: 25px;
+    /* Espacios desiguales y vagos - ¡Desorden Visual Controlado! */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.post-blog-desastre {
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo Gris Muy Claro - Casi Blanco Roto */
+    border: 1px dashed var(--color-secundario); /* Borde Discontinuo "Cutre" */
+    border-radius: 7px; /* Bordes Ligeramente No Redondeados */
+    box-shadow: 3px 3px 0 var(--color-acento); /* Sombra "Desastrosa" - Amarillo Cutre */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    bottom: -2px;
+    right: 1px;
+}
+
+.titulo-post-blog-desastre {
+    font-family: var(--tipografia-titulos);
+    color: var(--color-secundario);
+    font-size: 1.8em; /* Tamaño de Texto Desproporcionado - Grande */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em; /* Espaciado entre letras vago */
+    /* Ligera desalineación vertical - ¡Incomodidad Visual! */
+    position: relative;
+    top: 1px;
+}
+
+.extracto-post-blog-desastre {
+    color: var(--color-texto-secundario);
+    margin-bottom: 15px; /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
+    position: relative;
+    top: 1px;
+}
+
+
+/* Botones "Inútiles" Corporativos - ¡Festival de la Inutilidad! */
+.boton-inutil {
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes Ligeramente No Redondeados */
+    border: 2px solid var(--color-acento); /* Borde "Cutre" Amarillo */
+    background-color: var(--color-boton-secundario);
+    color: var(--color-boton-secundario-texto);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9em; /* Tamaño de Texto Ligeramente Desproporcionado - Pequeño */
+    font-weight: bold; /* Texto en Negrita - ¡Ironía Corporativa! */
+    letter-spacing: 0.05em; /* Espaciado entre letras vago */
+    /* Forma ligeramente distorsionada y asimétrica - ¡Grotesque Ugly-Cute! */
+    transform: rotate(-1deg);
+    box-shadow: 3px 3px 0 var(--color-primario); /* Sombra "Desastrosa" - Rojo Rebelde */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+.boton-inutil:hover {
+    transform: rotate(1deg) scale(1.02); /* Hover - Ligera Distorsión y Escala */
+    box-shadow: 4px 4px 0 var(--color-acento); /* Sombra Más "Desastrosa" en Hover */
+    background-color: var(--color-primario); /* Cambio de Color Inesperado - ¡Caos Controlado! */
+    color: var(--color-fondo); /* Cambio de Color Inesperado - ¡Caos Controlado! */
+}
+
+
+/* Blog Desastre Diario - Lista "Cutremente Conectada" */
+.lista-blog-desastre {
+    padding-left: 25px; /* Padding "Vago" - ¡Desorden Visual! */
+    list-style-type: none; /* Sin viñetas - ¡Minimalismo "Corporativo"! */
+}
+
+.lista-blog-desastre li {
+    margin-bottom: 10px;
+    /* Líneas delgadas amarillas cutres cruzando diagonalmente - ¡Tachado Corporativo! */
+    position: relative;
+    padding-left: 10px; /* Padding "Vago" - ¡Desorden Visual! */
+}
+
+.lista-blog-desastre li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-primario); /* Pequeño icono corporativo simplón y feo */
+    border-radius: 50%; /* Icono "Corporativo" Redondeado - ¡Ironía! */
+}
+
+.lista-blog-desastre li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-acento); /* Línea delgada amarilla cutre */
+    transform:
