@@ -487,7 +487,7 @@ body {
 }
 
 .logo-glitch {
-  width: 150px;
+  width: 300px;
   filter: drop-shadow(0 0 10px #FF6B6B);
 }
 
@@ -558,7 +558,7 @@ body {
 }
 
 .footer-icon {
-  width: 50px;
+  width: 100px;
   opacity: 0.5;
   margin-top: 1rem;
 }
