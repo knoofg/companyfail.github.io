@@ -266,4 +266,60 @@ body {
     width: 100%;
     height: 1px;
     background-color: var(--color-acento); /* Línea delgada amarilla cutre */
-    transform:
+    transform: translateY(2px); /* Ligera desalineación vertical - ¡Incomodidad Visual! */
+    z-index: -1; /* Detrás del texto - ¡Discreto pero "Presente"! */
+}
+
+
+.enlace-blog-desastre {
+    color: var(--color-enlace);
+    text-decoration: none; /* Sin subrayado - ¡Minimalismo "Corporativo"! */
+    font-weight: bold; /* Texto en Negrita - ¡Fuerza "Corporativa"! */
+    transition: color 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+.enlace-blog-desastre:hover {
+    color: var(--color-enlace-hover);
+    text-decoration: underline dotted var(--color-acento); /* Subrayado discontinuo "Cutre" en hover */
+}
+
+
+/* Podcast ZoomBieland Corporativo - "Cutrez" Incrustada */
+.podcast-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff; /* Fondo Blanco Roto - Ligeramente Sucio */
+    border: 2px dashed var(--color-primario); /* Borde Discontinuo "Rebelde" */
+    border-radius: 10px; /* Bordes Ligeramente No Redondeados */
+    box-shadow: -3px -3px 0 var(--color-secundario); /* Sombra "Desastrosa" - Gris Apocalíptico */
+    /* Desalineación sutil - ¡Error Visual Intencionado! */
+    position: relative;
+    left: 2px;
+    top: -1px;
+}
+
+.texto-podcast-desastre {
+    color: var(--color-texto-secundario);
+    font-size: 0.9em; /* Tamaño de Texto Ligeramente Desproporcionado - Pequeño */
+    font-style: italic; /* Texto en Itálica - Toque "Cutre" */
+    /* Texto ligeramente desalineado verticalmente - ¡Cutre Bien Hecho! */
+    position: relative;
+    top: 1px;
+}
+
+.texto-podcast-desastre a {
+    color: var(--color-enlace);
+    text-decoration: underline dashed var(--color-acento); /* Subrayado discontinuo "Cutre" */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transición Suave - ¡Pero "Cutre"! */
+}
+
+.texto-podcast-desastre a:hover {
+    color: var(--color-enlace-hover);
+    text-decoration: underline wavy var(--color-primario); /* Subrayado ondulado "Rebelde" en hover */
+}
+
+
+/* Gurús Corporativos - Festival de la Guruficación Desastrosa */
+.gurus-container {
+    display: grid;
+    grid-template-columns:
