@@ -565,3 +565,23 @@ body {
   opacity: 0.5;
   margin-top: 1rem;
 }
+@media (max-width: 768px) { /* Esto se aplica a pantallas de 768 píxeles de ancho o menos (típicamente móviles y tablets) */
+    .k-o-header {
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    }
+
+    .logo-glitch {
+        margin-right: 0; /* Elimina el margen derecho en la versión móvil */
+        margin-bottom: 10px; /* Añade un margen inferior para separarlo del texto */
+    }
+
+    .k-o-title {
+        font-size: 3rem; /* Reduce el tamaño del título en móviles */
+        margin-bottom: 5px; /* Reduce el margen inferior */
+    }
+
+    .eslogan {
+        font-size: 1.2rem; /* Reduce el tamaño del eslogan en móviles */
+    }
+}
